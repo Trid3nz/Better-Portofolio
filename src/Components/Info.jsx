@@ -10,7 +10,7 @@ const Info = () => {
         data-aos-delay="500"
         data-aos-once="true"
       >
-        <p className="text-base/loose mb-10">
+        <p className="text-base/loose mb-10m">
           I’m was member of BNCC (Bina Nusantara Computer Club) and was part of
           the GDG OC core team, where I’ve developed both my technical and
           leadership skills through real-world collaborations and event

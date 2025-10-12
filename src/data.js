@@ -117,6 +117,7 @@ import Proyek1 from "./assets/proyek/Food-Recognition System.png";
 import Proyek2 from "./assets/proyek/Motion-up.png";
 import Proyek3 from "./assets/proyek/Career-Sprint.png";
 import Proyek4 from "./assets/proyek/Binus-Aspire.png";
+import Proyek5 from "./assets/proyek/Personal-website.png";
 export const listProyek = [
   {
     id: 1,
@@ -162,9 +163,13 @@ export const listProyek = [
     dad: "500",
     link: "https://github.com/Trid3nz/Binus-Aspire",
   },
-  // {
-  //   id: 5,
-  //   gambar: Proyek3,
-  //   nama: "",
-  // },
+  {
+    id: 5,
+    gambar: Proyek5,
+    nama: "Portfolio Website",
+    desk: "This portfolio website is also one of my projects where It it the first time I fully try to code in React while also using modern framework such as Tailwind CSS. This portfolio aims to showcase my skills and projects that I have done in the past",
+    tools: ["React", "Tailwind CSS", "Vite"],
+    dad: "600",
+    link: "https://github.com/Trid3nz/Better-Portofolio",
+  },
 ];
