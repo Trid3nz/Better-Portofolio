@@ -11,14 +11,16 @@ const Info = () => {
         data-aos-once="true"
       >
         <p className="text-base/loose mb-10">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi,
-          illo dolorum ipsum rem odit sit similique et tempore, ab provident
-          enim porro nesciunt nulla consequuntur suscipit modi? Tenetur maiores
-          optio fugit at sint saepe laudantium, natus excepturi minima odit
-          sapiente. Nulla quae corporis doloremque neque autem? Alias delectus
-          magnam porro dolorum iusto. Earum voluptate tempora et minus facere,
-          qui optio, error delectus expedita nisi ipsa dolores labore quasi
-          atque repudiandae.
+          I’m was member of BNCC (Bina Nusantara Computer Club) and was part of
+          the GDG OC core team, where I’ve developed both my technical and
+          leadership skills through real-world collaborations and event
+          management. My experience spans from organizing tech communities and
+          negotiating with partners to building data-driven solutions that solve
+          meaningful problems. I’m currently focused on expanding my expertise
+          in data science and machine learning, combining analytical thinking
+          with creative design to develop smart, user-centric applications.
+          Outside of coding, I enjoy connecting with like-minded people,
+          organizing events, and turning innovative ideas into reality.
         </p>
       </div>
 
