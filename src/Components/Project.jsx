@@ -3,17 +3,32 @@ import { listProyek } from "../data";
 
 const Project = () => {
   return (
-    <div className="proyek mt-32 py-10">
-      <h1 className="text-center text-4xl font-bold mb-2">Project</h1>
-      <p className="text-base/loose text-center opacity-50">
+    <div className="proyek mt-32 py-10" id="project">
+      <h1
+        className="text-center text-4xl font-bold mb-2"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        data-aos-once="true"
+      >
+        Project
+      </h1>
+      <p
+        className="text-base/loose text-center opacity-50"
+        data-aos="fade-up"
+        data-aos-delay="300"
+        data-aos-once="true"
+      >
         Here are some project that I have made
       </p>
 
-      <div className="Project-Box mt-14 grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-8">
+      <div className="Project-Box mt-14 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8">
         {listProyek.map((proyek) => (
           <div
             key={proyek.id}
             className="flex flex-col bg-zinc-800 rounded-xl shadow-md hover:shadow-lg transition-all duration-300 overflow-hidden"
+            data-aos="fade-up"
+            data-aos-delay={proyek.dad}
+            data-aos-once="true"
           >
             <img
               src={proyek.gambar}
