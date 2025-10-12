@@ -9,11 +9,11 @@ const Project = () => {
         Here are some project that I have made
       </p>
 
-      <div className="Project-Box mt-14 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8">
+      <div className="Project-Box mt-14 grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-8">
         {listProyek.map((proyek) => (
           <div
             key={proyek.id}
-            className="flex flex-col bg-zinc-800 rounded-2xl shadow-md hover:shadow-lg transition-all duration-300 overflow-hidden"
+            className="flex flex-col bg-zinc-800 rounded-xl shadow-md hover:shadow-lg transition-all duration-300 overflow-hidden"
           >
             <img
               src={proyek.gambar}
