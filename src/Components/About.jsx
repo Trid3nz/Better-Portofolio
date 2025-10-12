@@ -1,5 +1,5 @@
 import React from "react";
-import heroImage from "../assets/profile_img.jpg";
+import heroImage from "../assets/profile_img.png";
 const About = () => {
   return (
     <div className="hero grid md:grid-cols-2 pt-10 xl:gap-0 gap-6 grid-cols-1 ">
@@ -34,10 +34,21 @@ const About = () => {
             Download CV <i className="ri-download-line ri-lg"></i>
           </a>
           <a
-            href="#"
+            href="#project"
             className="bg-[#565F64] border-2 border-[#565F64] p-4 rounded-2xl text-white hover:bg-gray-200 hover:text-[#00B2A9] transition"
           >
             Lihat Proyek <i className="ri-arrow-down-line ri-lg"></i>
+          </a>
+        </div>
+        <div className="flex items-center gap-5 mt-1">
+          <a href="https://github.com/Trid3nz">
+            <i className="ri-github-fill ri-2x"></i>
+          </a>
+          <a href="https://www.instagram.com/nafi_2712">
+            <i className="ri-instagram-fill ri-2x"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/tristan-nafi-agung-kurniawan">
+            <i className="ri-linkedin-fill ri-2x"></i>
           </a>
         </div>
       </div>
