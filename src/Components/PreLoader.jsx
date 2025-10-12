@@ -3,11 +3,11 @@ import { useState, useEffect } from "react";
 const PreLoader = () => {
   const [loading, setLoading] = useState(true);
   useEffect(() => {
-    setTimeout(() => setLoading(false), 3000);
+    setTimeout(() => setLoading(false), 2500);
   }, []);
   return (
     loading && (
-      <div className="w-screen h-screen fixed flex items-center justify-center bg-black">
+      <div className="w-screen h-screen fixed flex items-center justify-center bg-zinc-800">
         <div role="status">
           <svg
             aria-hidden="true"
