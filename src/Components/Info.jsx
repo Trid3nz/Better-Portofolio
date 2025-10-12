@@ -35,8 +35,8 @@ const Info = () => {
                 loading="lazy"
               />
               <div>
-                <h4>{tool.nama}</h4>
-                <p>{tool.ket}</p>
+                <h4 className="font-bold">{tool.nama}</h4>
+                <p className="opacity-50">{tool.ket}</p>
               </div>
             </div>
           ))}

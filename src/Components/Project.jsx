@@ -9,31 +9,48 @@ const Project = () => {
         Here are some project that I have made
       </p>
 
-      <div className="Project-Box mt-14 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 ggap-4">
+      <div className="Project-Box mt-14 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8">
         {listProyek.map((proyek) => (
-          <div key={proyek.id} className="p-4 bg-zinc-800 rounded-md">
-            <img src={proyek.gambar} alt="Proyek Image" loading="lazy" />
-            <div>
-              <h1 className="text-2xl font-bold my-4 ">{proyek.nama}</h1>
-              <p>{proyek.desk}</p>
-              <div className="flex flex-wrap gap-2">
-                {proyek.tools.map((tool, index) => (
-                  <p
-                    className="py-1 px-3 border border-zinc-500 bg-zinc-800 rounded-md font-semibold"
-                    key={index}
-                  >
-                    {tool}
-                  </p>
-                ))}
+          <div
+            key={proyek.id}
+            className="flex flex-col bg-zinc-800 rounded-2xl shadow-md hover:shadow-lg transition-all duration-300 overflow-hidden"
+          >
+            <img
+              src={proyek.gambar}
+              alt={proyek.nama}
+              loading="lazy"
+              className="w-full h-52 object-cover"
+            />
+
+            <div className="flex flex-col justify-between flex-1 p-6">
+              <div>
+                <h1 className="text-2xl font-bold text-white mb-3">
+                  {proyek.nama}
+                </h1>
+                <p className="text-zinc-300 mb-4 leading-relaxed">
+                  {proyek.desk}
+                </p>
+
+                <div className="flex flex-wrap gap-2 mb-6">
+                  {proyek.tools.map((tool, index) => (
+                    <span
+                      key={index}
+                      className="text-sm py-1 px-3 border border-zinc-600 bg-zinc-900 rounded-full font-medium text-zinc-200"
+                    >
+                      {tool}
+                    </span>
+                  ))}
+                </div>
               </div>
-              <div className="mt-8 text-center">
-                <a
-                  href="#"
-                  className="bg-[#00B2A9] p-3 rounded-lg block border-zinc-600 hover:bg-[#00847d]"
-                >
-                  See Project
-                </a>
-              </div>
+
+              <a
+                href={proyek.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-[#00B2A9] hover:bg-[#00847d] text-center text-white font-semibold py-2 rounded-lg transition-colors"
+              >
+                See Project
+              </a>
             </div>
           </div>
         ))}
