@@ -173,3 +173,55 @@ export const listProyek = [
     link: "https://github.com/Trid3nz/Better-Portofolio",
   },
 ];
+
+export const listExperience = [
+  {
+    id: 1,
+    tempatKerja: "Bina Nusantara Computer Club (BNCC)",
+    posisi: "Core Member & Learning Division",
+    tahun: "2023 - Present",
+    deskripsi: [
+      "Mengembangkan aplikasi web internal serta berkolaborasi dalam tim teknis.",
+      "Mengorganisasi event pelatihan coding dan workshop teknologi bagi anggota baru.",
+      "Mengelola dokumentasi proyek dan memastikan kualitas penyampaian materi perkuliahan.",
+    ],
+    gambar: [
+      "https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=800",
+      "https://images.unsplash.com/photo-1531403009284-440f080d1e12?q=80&w=800",
+      "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=800",
+    ],
+    dad: "200",
+  },
+  {
+    id: 2,
+    tempatKerja: "Google Developer Group (GDG) OC",
+    posisi: "Core Team Member",
+    tahun: "2023 - 2024",
+    deskripsi: [
+      "Mengatur jalannya acara seminar teknologi dan workshop bersama pakar industri.",
+      "Melakukan negosiasi dengan partner dan sponsor untuk kelancaran event.",
+      "Memimpin sub-tim media dan publikasi untuk promosi kegiatan komunitas.",
+    ],
+    gambar: [
+      "https://images.unsplash.com/photo-1540575467063-178a50c2df87?q=80&w=800",
+      "https://images.unsplash.com/photo-1515187029135-18ee286d815b?q=80&w=800",
+    ],
+    dad: "400",
+  },
+  {
+    id: 3,
+    tempatKerja: "ITCC UI/UX Competition 2024",
+    posisi: "Finalist & Lead Designer",
+    tahun: "2024",
+    deskripsi: [
+      "Merancang konsep aplikasi 'Career Sprint' untuk pengembangan soft-skills dan hard-skills.",
+      "Membuat prototype interaktif Figma dan mempresentasikannya di hadapan dewan juri di Bali.",
+      "Berhasil mencapai tahap babak Final pada kompetisi tingkat nasional.",
+    ],
+    gambar: [
+      "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?q=80&w=800",
+    ],
+    dad: "600",
+  },
+];
+

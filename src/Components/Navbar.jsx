@@ -41,6 +41,11 @@ const Navbar = () => {
           </a>
         </li>
         <li>
+          <a href="#experience" className="sm:text-lg text-base font-medium">
+            Experience
+          </a>
+        </li>
+        <li>
           <a href="#project" className="sm:text-lg text-base  font-medium">
             Projects
           </a>

@@ -5,6 +5,7 @@ import "./App.css";
 import Navbar from "./Components/Navbar";
 import About from "./Components/About";
 import Info from "./Components/Info";
+import Experience from "./Components/Experience";
 import Project from "./Components/Project";
 import Contact from "./Components/Contact";
 import Footer from "./Components/footer";
@@ -18,6 +19,7 @@ function App() {
         <Navbar />
         <About />
         <Info />
+        <Experience />
         <Project />
         <Contact />
         <Footer />
