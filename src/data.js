@@ -174,38 +174,43 @@ export const listProyek = [
   },
 ];
 
+import Bncc1 from "./assets/image/BNCC/BNCC-1.jpg";
+import Bncc2 from "./assets/image/BNCC/BNCC - 2.JPG";
+import Bncc3 from "./assets/image/BNCC/BNCC - 3.jpg";
+import Bncc4 from "./assets/image/BNCC/BNCC - 4.jpg";
+
+import Dbs1 from "./assets/image/DBS/IMG_3406.png";
+import Dbs2 from "./assets/image/DBS/IMG_3408.png";
+
 export const listExperience = [
   {
     id: 1,
     tempatKerja: "Bina Nusantara Computer Club (BNCC)",
-    posisi: "Core Member & Learning Division",
-    tahun: "2023 - Present",
+    posisi: "External Event Oraganizer",
+    tahun: "2023 - 2026",
     deskripsi: [
-      "Mengembangkan aplikasi web internal serta berkolaborasi dalam tim teknis.",
-      "Mengorganisasi event pelatihan coding dan workshop teknologi bagi anggota baru.",
-      "Mengelola dokumentasi proyek dan memastikan kualitas penyampaian materi perkuliahan.",
+      "Led 13-member team for BNCC Benchmarking 2024; partnered with CCI Telkom University.",
+      "Handled logistics and documentation for Techbinar 2024.",
+      "Negotiated with speakers; co-taught front-end workshop for 500+ students at TechBlast 2024.",
+      "Coordinated event schedules and timelines.",
+      "Managed volunteer team to ensure smooth event execution.",
+      "Contributed to strategic planning and campaign growth.",
+      "Oversaw event logistics and operations.",
     ],
-    gambar: [
-      "https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=800",
-      "https://images.unsplash.com/photo-1531403009284-440f080d1e12?q=80&w=800",
-      "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=800",
-    ],
+    gambar: [Bncc1, Bncc2, Bncc3, Bncc4],
     dad: "200",
   },
   {
     id: 2,
-    tempatKerja: "Google Developer Group (GDG) OC",
-    posisi: "Core Team Member",
-    tahun: "2023 - 2024",
+    tempatKerja: "DBS X Dicoding Coding Camp 2026",
+    posisi: "AI Engineer Cohort",
+    tahun: "January 2026 - July 2026",
     deskripsi: [
-      "Mengatur jalannya acara seminar teknologi dan workshop bersama pakar industri.",
-      "Melakukan negosiasi dengan partner dan sponsor untuk kelancaran event.",
-      "Memimpin sub-tim media dan publikasi untuk promosi kegiatan komunitas.",
+      "Selected member of DBS X Dicoding Coding Camp 2026 as an AI Engineer Cohort",
+      "Engaging in module based learning provided by Dicoding",
+      "Led a group of 5 for final project in making Computer Vision website",
     ],
-    gambar: [
-      "https://images.unsplash.com/photo-1540575467063-178a50c2df87?q=80&w=800",
-      "https://images.unsplash.com/photo-1515187029135-18ee286d815b?q=80&w=800",
-    ],
+    gambar: [Dbs1, Dbs2],
     dad: "400",
   },
   {
@@ -218,10 +223,9 @@ export const listExperience = [
       "Membuat prototype interaktif Figma dan mempresentasikannya di hadapan dewan juri di Bali.",
       "Berhasil mencapai tahap babak Final pada kompetisi tingkat nasional.",
     ],
-    gambar: [
-      "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?q=80&w=800",
-    ],
+    gambar: [Proyek3],
     dad: "600",
   },
 ];
+
 
