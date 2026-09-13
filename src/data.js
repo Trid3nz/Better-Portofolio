@@ -6,9 +6,20 @@ const Image = {
 
 export default Image;
 
+export const personalInfo = {
+  name: "Tristan Nafi Agung Kurniawan",
+  title: "Computer Science Student",
+  location: "Bandung",
+  phone: "087835347721",
+  email: "ttkurniawan2712@gmail.com",
+  github: "https://github.com/Trid3nz",
+  linkedin: "https://www.linkedin.com/in/tristan-nafi-agung-kurniawan",
+  summary:
+    "Computer Science Student with a Passion for Data Analysis, Software Engineering, and AI. I have a keen interest in exploring new opportunities and am enthusiastic about learning. I bring experience in teamwork, decision-making, and collaborative projects.",
+};
+
 import Tools1 from "./assets/tools/vscode.png";
 import Tools2 from "./assets/tools/reactjs.png";
-// import Tools3 from "./assets/tools/nextjs.png";
 import Tools4 from "./assets/tools/tailwind.png";
 import Tools5 from "./assets/tools/bootstrap.png";
 import Tools6 from "./assets/tools/js.png";
@@ -19,6 +30,7 @@ import Tools10 from "./assets/tools/canva.png";
 import Tools11 from "./assets/tools/figma.png";
 import Tools12 from "./assets/tools/python.png";
 import Tools13 from "./assets/tools/GCP.png";
+
 export const listTools = [
   {
     id: 1,
@@ -34,82 +46,75 @@ export const listTools = [
     ket: "Framework",
     dad: "200",
   },
-  // {
-  //   id: 3,
-  //   gambar: Tools3,
-  //   nama: "Next JS",
-  //   ket: "Framework",
-  //   dad: "300",
-  // },
   {
     id: 4,
     gambar: Tools4,
     nama: "Tailwind CSS",
     ket: "Framework",
-    dad: "400",
+    dad: "300",
   },
   {
     id: 5,
     gambar: Tools5,
     nama: "Bootstrap",
     ket: "Framework",
-    dad: "500",
+    dad: "400",
   },
   {
     id: 6,
     gambar: Tools6,
     nama: "Javascript",
     ket: "Language",
-    dad: "600",
+    dad: "500",
   },
   {
     id: 7,
     gambar: Tools7,
     nama: "Node JS",
     ket: "Javascript Runtime",
-    dad: "700",
+    dad: "600",
   },
   {
     id: 8,
     gambar: Tools8,
     nama: "Github",
     ket: "Repository",
-    dad: "800",
+    dad: "700",
   },
   {
     id: 9,
     gambar: Tools9,
     nama: "Adobe Lightroom",
     ket: "Design App",
-    dad: "900",
+    dad: "800",
   },
   {
     id: 10,
     gambar: Tools10,
     nama: "Canva",
     ket: "Design App",
-    dad: "1000",
+    dad: "900",
   },
   {
     id: 11,
     gambar: Tools11,
     nama: "Figma",
     ket: "Design App",
-    dad: "1100",
+    dad: "1000",
   },
   {
     id: 12,
     gambar: Tools12,
     nama: "Python",
     ket: "Language",
-    dad: "1200",
+    dad: "1100",
   },
   {
     id: 13,
     gambar: Tools13,
-    nama: "Google Cloud Compute",
+    nama: "Google Cloud Platform",
     ket: "Cloud Computing",
-    dad: "1300",
+    dad: "1200",
   },
 ];
 
@@ -118,58 +123,72 @@ import Proyek2 from "./assets/proyek/Motion-up.png";
 import Proyek3 from "./assets/proyek/Career-Sprint.png";
 import Proyek4 from "./assets/proyek/Binus-Aspire.png";
 import Proyek5 from "./assets/proyek/Personal-website.png";
+import FreshOrTrash1 from "./assets/proyek/Fresh or Trash 1.png";
+import FreshOrTrash2 from "./assets/proyek/Fresh or Trash 2.png";
+
 export const listProyek = [
   {
     id: 1,
-    gambar: Proyek1,
-    nama: "AI Food Recognition",
-    desk: "This project uses Computer Vision to recognize food items from uploaded images. It utilizes 3 different models such as YOLOv8, ResNet-18, and Vision Transformer where the user can select which one they want to use. After that we display the nutritional value of the food.",
-    tools: [
-      "HTML",
-      "CSS",
-      "Bootstrap",
-      "Python",
-      "YOLOv8",
-      "ResNet-18",
-      "ViT Transformer",
-    ],
-    dad: "200",
-    link: "https://github.com/Trid3nz/Food-Recognition",
-  },
-  {
-    id: 2,
-    gambar: Proyek2,
-    nama: "Motion Up",
-    desk: "Motion Up is an app concept that helps user to exercise and track their progress. It provides a user-friendly step by step guide depending on their preference, and also provides a progress tracker to help user to track their progress.",
-    tools: ["Figma"],
-    dad: "300",
-    link: "https://www.figma.com/design/wjj4Xao5zQO6FxbxfB5osy/Motion-Up?node-id=0-1&t=ElkPAzEiRq92ThtM-1",
-  },
-  {
-    id: 3,
     gambar: Proyek3,
-    nama: "Career Sprint",
-    desk: "Career Sprint is an app concept that helps user to find their career path. It is a human resource management app that encourage improvement in hard-skills or soft-skills through a feedback based learning system. This app concept helps us to finish at the finals at ITCC UI/UX 2024 Competition at Bali.",
-    tools: ["Figma"],
-    dad: "400",
+    nama: "CareerSprint",
+    desk: "An AI-based human resource management system designed to encourage skill improvement through feedback-based learning. Positioned group for participation as a finalist in the ITCC UI/UX 2024 Competition.",
+    tools: ["Figma", "UI/UX", "AI Concept"],
+    dad: "200",
     link: "https://www.figma.com/design/8PwZXyB5pIEal0rghqL9iz/ITCC-Competition?node-id=0-1&t=GHc2KWGZOeYEmlUz-1",
   },
   {
+    id: 2,
+    gambar: FreshOrTrash1,
+    gambarList: [FreshOrTrash1, FreshOrTrash2],
+    nama: "Fresh or Trash",
+    desk: "AI-based food freshness recognition website. Served as Team Leader overseeing project conceptualization, machine learning training, cloud deployment, and team guidance. Designed and trained a MobileNetV2 model for high accuracy under lightweight cloud deployment constraints.",
+    tools: ["Python", "TensorFlow", "MobileNetV2", "Kaggle", "Cloud Deployment"],
+    dad: "250",
+    link: "https://freshortrash.vercel.app/",
+  },
+  {
+    id: 3,
+    gambar: Proyek1,
+    nama: "AI Food Recognition",
+    desk: "Implemented three food recognition algorithms (YOLOv8, ResNet-18, Vision Transformer) for model training, system development, and academic paper 'Deciding The Most Suited Algorithm for Food Recognition: A Comparative Study'.",
+    tools: ["Python", "YOLOv8", "ResNet-18", "Vision Transformer", "HTML", "CSS", "Bootstrap"],
+    dad: "300",
+    link: "https://github.com/Trid3nz/Food-Recognition",
+  },
+  {
     id: 4,
+    gambar: Proyek2,
+    nama: "MotionUP",
+    desk: "Fitness training app with gamification features such as leaderboards, streaks, and point scores. Contributed to UI/UX design, ideation, and proposal development.",
+    tools: ["Figma", "UI/UX Design"],
+    dad: "400",
+    link: "https://www.figma.com/design/wjj4Xao5zQO6FxbxfB5osy/Motion-Up?node-id=0-1&t=ElkPAzEiRq92ThtM-1",
+  },
+  {
+    id: 5,
     gambar: Proyek4,
     nama: "Binus Aspire",
-    desk: "Binus Aspire is a redesigned version of Binusmaya that we created for a Human Computer Interaction class project. It aims to improve the overall usage of Binusmaya that we found clunky or not the best user experience. For this we analyzed the several aspect of Binusmaya that we found annoying, and I am responsible for redesigning the web in Figma UI/UX design.",
-    tools: ["Figma", "HTML", "CSS", "Bootstrap", "Javascript"],
+    desk: "A redesigned version of the Binusmaya Learning Management System to improve user experience. Contributed to UI/UX design, ideation, proposal creation, and web implementation.",
+    tools: ["Figma", "HTML", "CSS", "Bootstrap", "JavaScript"],
     dad: "500",
     link: "https://github.com/Trid3nz/Binus-Aspire",
   },
   {
-    id: 5,
+    id: 6,
+    gambar: Tools13,
+    nama: "Cloud Music Player",
+    desk: "A music player deployed within a Google Cloud environment utilizing cloud storage. Contributed to web development and deployment into the cloud system.",
+    tools: ["Google Cloud Platform", "Cloud Storage", "Web Development"],
+    dad: "600",
+    link: "https://github.com/Trid3nz",
+  },
+  {
+    id: 7,
     gambar: Proyek5,
     nama: "Portfolio Website",
-    desk: "This portfolio website is also one of my projects where It it the first time I fully try to code in React while also using modern framework such as Tailwind CSS. This portfolio aims to showcase my skills and projects that I have done in the past",
-    tools: ["React", "Tailwind CSS", "Vite"],
-    dad: "600",
+    desk: "Personal portfolio website built with React, Vite, and Tailwind CSS to showcase projects, experience, and technical skills with dynamic animations.",
+    tools: ["React", "Tailwind CSS", "Vite", "JavaScript"],
+    dad: "700",
     link: "https://github.com/Trid3nz/Better-Portofolio",
   },
 ];
@@ -186,8 +205,8 @@ export const listExperience = [
   {
     id: 1,
     tempatKerja: "Bina Nusantara Computer Club (BNCC)",
-    posisi: "External Event Oraganizer",
-    tahun: "2023 - 2026",
+    posisi: "External Event Organizer",
+    tahun: "November 2023 - January 2026",
     deskripsi: [
       "Led 13-member team for BNCC Benchmarking 2024; partnered with CCI Telkom University.",
       "Handled logistics and documentation for Techbinar 2024.",
@@ -202,30 +221,114 @@ export const listExperience = [
   },
   {
     id: 2,
+    tempatKerja: "Google Developer Group On Campus Binus@Bandung",
+    posisi: "Formalistic Division",
+    tahun: "October 2024 - October 2025",
+    deskripsi: [
+      "Becoming the part of Formalistic Division, responsible for hosting and promoting workshops.",
+      "Event Operator: Become the main operator for 6 different workshops with each having more than 60 participants.",
+      "Event Promotion: Responsible for promoting workshops to participants via WhatsApp community.",
+    ],
+    gambar: [],
+    dad: "300",
+  },
+  {
+    id: 3,
+    tempatKerja: "Klifonara",
+    posisi: "Member",
+    tahun: "January 2024 - July 2026",
+    deskripsi: [
+      "Tasked with serving as the documentation team for three campus events.",
+      "Primarily concentrates on photography.",
+    ],
+    gambar: [],
+    dad: "400",
+  },
+  {
+    id: 4,
     tempatKerja: "DBS X Dicoding Coding Camp 2026",
     posisi: "AI Engineer Cohort",
     tahun: "January 2026 - July 2026",
     deskripsi: [
-      "Selected member of DBS X Dicoding Coding Camp 2026 as an AI Engineer Cohort",
-      "Engaging in module based learning provided by Dicoding",
-      "Led a group of 5 for final project in making Computer Vision website",
+      "Selected member of DBS X Dicoding Coding Camp 2026 as an AI Engineer Cohort.",
+      "Engaging in module-based learning provided by Dicoding.",
+      "Led a group of 5 for final project in making Computer Vision website.",
     ],
     gambar: [Dbs1, Dbs2],
-    dad: "400",
+    dad: "500",
+  },
+];
+
+export const listEducation = [
+  {
+    id: 1,
+    institution: "Bina Nusantara University",
+    stream: "Cloud Computing Streaming",
+    tahun: "September 2023 - Present",
+    gpa: "3.51 GPA",
+    details: [
+      "3.51 GPA",
+      "Active member of 3 student organizations: GDG On Campus, BNCC, and Klifonara.",
+      "Pursuing core subjects in computer science including programming, data structures, and algorithms.",
+      "Involved in collaborative and extracurricular activities to build leadership and technical skills.",
+    ],
+  },
+  {
+    id: 2,
+    institution: "University of Technology Sydney",
+    stream: "Study Abroad",
+    tahun: "July 2026 - Present",
+    details: [
+      "BINUS Enrichment II Study abroad program.",
+      "Engaging in courses related to Data Analysis.",
+    ],
   },
   {
     id: 3,
-    tempatKerja: "ITCC UI/UX Competition 2024",
-    posisi: "Finalist & Lead Designer",
-    tahun: "2024",
-    deskripsi: [
-      "Merancang konsep aplikasi 'Career Sprint' untuk pengembangan soft-skills dan hard-skills.",
-      "Membuat prototype interaktif Figma dan mempresentasikannya di hadapan dewan juri di Bali.",
-      "Berhasil mencapai tahap babak Final pada kompetisi tingkat nasional.",
+    institution: "Taman Rama Jimbaran Senior High School",
+    stream: "High School Diploma",
+    tahun: "July 2020 - June 2023",
+    details: [
+      "Member of Student Council: organized and led two school events, responsible for event concepts and rundown planning.",
+      "Participated in national-level competitions.",
     ],
-    gambar: [Proyek3],
-    dad: "600",
   },
 ];
+
+export const listAchievements = [
+  "Finalist in UI/UX Competition by ITCC Udayana University",
+  "Trained and mentored over 5 event activists",
+  "Earned 7 data science related certificates",
+];
+
+export const listSkills = {
+  softSkills: [
+    "Analytical thinking",
+    "Decision Making",
+    "Teamwork",
+    "Collaboration",
+  ],
+  hardSkills: [
+    "Python",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Java",
+    "MySQL",
+    "Data validation",
+    "Data cleaning",
+    "Data analysis",
+    "Data visualization",
+    "Figma",
+    "GCP",
+  ],
+  otherSkills: ["Photo editing", "Digital photography"],
+};
+
+export const listLanguages = [
+  { language: "English", proficiency: "IELTS 7" },
+  { language: "Indonesian", proficiency: "Native Speaker" },
+];
+
 
 
